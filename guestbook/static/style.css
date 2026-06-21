@@ -1,0 +1,169 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Блок авторизации */
+.auth-links {
+    text-align: right;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Счётчик */
+.counter {
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Сортировка */
+.sort-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sort-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.sort-links a:hover {
+    text-decoration: underline;
+}
+
+/* Сообщения */
+.message {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+.message-even {
+    background-color: #ffffff;
+}
+.message-odd {
+    background-color: #f9f9f9;
+}
+.message.fresh {
+    background-color: #fff3cd !important;
+}
+.message strong {
+    color: #007bff;
+}
+.message small {
+    color: gray;
+    font-size: 0.8em;
+}
+
+/* Кнопка удаления */
+.delete-btn {
+    float: right;
+    color: red;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+.delete-btn:hover {
+    color: darkred;
+}
+
+/* Форма добавления */
+.add-form {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #eee;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Опасная зона (удалить все) */
+.danger-zone {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ffcccc;
+    text-align: center;
+}
+.delete-all-btn {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+.delete-all-btn:hover {
+    background-color: #ffeeee;
+}
+
+/* Стили для страницы подтверждения */
+.danger-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.danger-btn:hover {
+    background-color: #c82333;
+}
+.cancel-btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+/* Ошибка входа */
+.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
